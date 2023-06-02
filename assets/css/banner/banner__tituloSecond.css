@@ -1,0 +1,22 @@
+.banner__tituloSecond{
+    color: white;
+    font-family: initial;
+    position: absolute;
+    left: 50%;
+    text-shadow: 0 4px 4px rgb(0,21,22,41.75);
+    top: 105%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    width: 36vw;
+}
+
+@media screen and (min-width: 0) {
+    .banner__titulo{
+        font-size: 1rem;
+    }
+}
+@media screen and (min-width:768px) {
+    .banner__titulo{
+        font-size: 2.0625rem;
+    }
+}

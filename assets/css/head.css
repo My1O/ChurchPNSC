@@ -1,0 +1,24 @@
+.head__contenido {
+    align-items: center;
+    display: flex;
+    background-color: white;
+    justify-content: space-between;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+@media screen and (min-width:0) {
+    .head__contenido {
+        padding: 0 1rem;
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .head__contenido {
+        padding: 2rem;
+        justify-content: space-between;
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}

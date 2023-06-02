@@ -1,0 +1,18 @@
+.persona__imagen{
+ height: 300px;
+ width: 300px;
+ margin: 0 auto;
+ background-position:center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ border-radius: 100%;
+}
+.persona__imagen_grupo{
+ background-image: url('../../img/personas/grupo.jpeg');
+}
+.persona__imagen--frailes{
+ background-image: url('../../img/personas/frailes.jpeg');
+}
+.persona__imagen--caridad{
+    background-image: url('../../img/personas/caridad.jpeg');
+}

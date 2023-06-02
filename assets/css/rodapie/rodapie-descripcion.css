@@ -1,0 +1,10 @@
+.rodapie__descripcion{
+    display: flex;
+    font-size: 1.60rem;
+    margin-left: 5rem;
+    color: ghostwhite;
+    padding-right: 30px;
+}
+.rodapie{
+    background-color: brown;
+}
