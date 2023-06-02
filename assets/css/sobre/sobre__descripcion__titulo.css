@@ -1,0 +1,13 @@
+.sobre__descripcion__titulo{
+    padding-bottom: 10px;
+    }
+
+.sobre__descripcion{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    justify-content:space-around;
+    padding-bottom: 50px;
+    
+}

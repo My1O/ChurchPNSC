@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="./assets/css/rodapie/rodapie-titulo.css">
     <link rel="stylesheet" href="./assets/css/logo.css ">
     <link rel="stylesheet" href="./assets/css/banner/banner__tituloSecond.css">
+    <link rel="stylesheet" href="./assets/css/sobre/sobre__container.css">
 </head>
 
 <body>
@@ -42,26 +43,26 @@
         <img src="./assets/img/logo.png" alt="Frutayfruto" class="logo">
         <nav class="menu__principal">
             <ul class="menu__lista">
-            <li class="menu__item">
-                <a href="index.html" class="menu__link activo menu__item">
-                    Inicio
-                </a>
-            </li>
                 <li class="menu__item">
-                    <a href="sobreNosotros.html" class="menu__link menu__item">
-                        SobreNosotros
-                    </a>
-                </li>
-                <li class="menu__item">
-                    <a href="servicio.html" class="menu__link menu__item">
-                        Servicio
+                    <a href="index.html" class="menu__link menu__item">
+                        Inicio
                     </a>
                 </li>
                     <li class="menu__item">
-                        <a href="contacto.html" class="menu__link menu__item">
-                            Contacto
+                        <a href="sobreNosotros.html" class="menu__link activo menu__item">
+                            SobreNosotros
                         </a>
                     </li>
+                    <li class="menu__item">
+                        <a href="servicio.html" class="menu__link menu__item">
+                            Servicio
+                        </a>
+                    </li>
+                        <li class="menu__item">
+                            <a href="contacto.html" class="menu__link menu__item">
+                                Contacto
+                            </a>
+                        </li>
             </ul>
         </nav>
     </header>
@@ -73,34 +74,22 @@
 
     <section class="sobre">
         <h2 class="sobre__titulo">Sobre Nostros</h2>
-        <p class="sobre__descripcion">
-            El carisma teresiano consiste esencialmente en una experiencia de amistad. Si la 
-            tradición franciscana de la "perfecta alegria". Teresa habla de la "perfecta amistad"
-        </p>
+    <div class="sobre__container">
+            <img src="./assets/img/church.jpg" class="img_nosotros">
+            <div class="sobre__descripcion">
+                <h1 class="sobre__descripcion__titulo">Parroquia El Carmen</h1>
+                La Parroquia El Carmen de managua de Nicaragua es la sede de la arquidiócesis de San Juan. Está localizada en la calle del Cristo, en el Viejo San Juan.
+                Trasfondo Histórico La idea de construir un espacio religioso se hace aparente por la necesidad espiritual en la capital. Desde el 1513 las primeras dos iglesias estaban en Caparras. Para este periodo se constituye el traslado de Caparras, donde yacía ya la iglesia en madera, a la isleta. Recordando que esto sería de primera prioridad al cambiar a la nueva capital. La localización y emplazamiento se determina por el primer obispo de la Isla.
+                <br />
+                <h1 class="sobre__descripcion__titulo">Historia</h1>
+                Fue construida en 1521, destruida por una tormenta, y posteriormente reconstruida en 1529. 
+                La Iglesia fue nombrada basílica menor por el Papa Pablo VI el 25 de enero de 1978, por petición del cardenal Luis Aponte Martínez, Arzobispo de San Juan.
+            </div>
+    </div>
+    
     </section>
     
-    <!-- Aula - Quienes somos -->
-    <section class="quienes">
-        <h3 class="quienes__titulo">Quienes somos</h3>
-        <p class="quienes__descripcion">Conozca nuestra comunidad</p>
-        <div class="personas">
-            <div class="persona">
-                <div class="persona__imagen persona__imagen_grupo"></div>
-                <span class="persona__nombre">Grupos Parroquiales</span>
-                <span class="persona__funcion">Contenido</span>
-            </div>
-            <div class="persona">
-                <div class="persona__imagen persona__imagen--frailes"></div>
-                <span class="persona__nombre">Frailes</span>
-                <span class="persona__funcion">Contenido</span>
-            </div>
-            <div class="persona">
-                <div class="persona__imagen persona__imagen--caridad"></div>
-                <span class="persona__nombre">Obras de caridad</span>
-                <span class="persona__funcion">Contenido</span>
-            </div>
-        </div>
-    </section>
+   
     <!--Part 5-->
     <footer class="rodapie">
         <h3 class="rodapie__titulo">Copy right &copy; 2023. Parroquia nuestra señora del carmen, managua.</h3>
